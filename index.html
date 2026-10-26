@@ -248,7 +248,7 @@ canvas{display:none}
       </div>
   <div class="brand-foot">
     <span class="prud">🟢 香港保誠 Prudential Hong Kong</span> · 理財顧問 Liam<br>
-    微信：長按上方二維碼添加 Liam ｜ 郵箱：［your@email.com］<br>
+    微信：長按上方二維碼添加 Liam<br>
     © 2026 本測驗由香港保誠 Liam 為您呈獻，僅供互動娛樂，不構成保險或投資建議。
   </div>
 <div class="toast" id="toast"></div>
@@ -584,7 +584,7 @@ el("restartBtn").onclick=function(){
 };
 
 /* 保誠聯絡方式：請替換為您的真實資訊 */
-var CONTACT_TEXT = "微信/WhatsApp：［請填寫您的聯絡方式］ ｜ 郵箱：［your@email.com］";
+var CONTACT_TEXT = "微信/WhatsApp：［請填寫您的聯絡方式］";
 function copyContact(){
   try{ if(navigator.clipboard) navigator.clipboard.writeText(CONTACT_TEXT); }catch(e){}
   toast("已複製聯絡方式，請添加 Liam 😊");
